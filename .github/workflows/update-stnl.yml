@@ -1,0 +1,22 @@
+name: STNL Auto-Update
+on:
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Apply updates
+        run: python3 write_files.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "STNL Bot"
+          git config user.email "bot@stnl.app"
+          git add -A
+          git commit -m "STNL update" --allow-empty
+          git push
