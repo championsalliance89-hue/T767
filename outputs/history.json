@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "date": "2025-06-04",
+      "sport": "tennis",
+      "predictions": [
+        { "id": "h-t-01", "sport": "tennis", "fixture": { "id": "h0", "tournament": "Wimbledon", "round": "R16", "player1Name": "Djokovic", "player2Name": "Alcaraz", "scheduledAt": "2025-06-04T13:00:00Z" }, "market": "match_winner", "prediction": "Alcaraz to Win", "confidence": 84, "tier": "high", "reasoning": "Elo + form edge.", "generatedAt": "2025-06-04T06:00:00Z", "result": "correct" },
+        { "id": "h-t-02", "sport": "tennis", "fixture": { "id": "h0", "tournament": "Wimbledon", "round": "R16", "player1Name": "Djokovic", "player2Name": "Alcaraz", "scheduledAt": "2025-06-04T13:00:00Z" }, "market": "total_games", "prediction": "Over 22.5", "confidence": 88, "tier": "high", "reasoning": "Tight match expected.", "generatedAt": "2025-06-04T06:00:00Z", "result": "correct" },
+        { "id": "h-t-03", "sport": "tennis", "fixture": { "id": "h1", "tournament": "Roland Garros", "round": "QF", "player1Name": "Swiatek", "player2Name": "Sabalenka", "scheduledAt": "2025-06-04T15:00:00Z" }, "market": "match_winner", "prediction": "Swiatek to Win", "confidence": 92, "tier": "elite", "reasoning": "Clay dominance.", "generatedAt": "2025-06-04T06:00:00Z", "result": "correct" },
+        { "id": "h-t-04", "sport": "tennis", "fixture": { "id": "h1", "tournament": "Roland Garros", "round": "QF", "player1Name": "Swiatek", "player2Name": "Sabalenka", "scheduledAt": "2025-06-04T15:00:00Z" }, "market": "total_games", "prediction": "Under 20.5", "confidence": 74, "tier": "medium", "reasoning": "Dominant win likely.", "generatedAt": "2025-06-04T06:00:00Z", "result": "incorrect" }
+      ],
+      "stats": { "total": 4, "correct": 3, "incorrect": 1, "pending": 0, "accuracy": 75 }
+    },
+    {
+      "date": "2025-06-04",
+      "sport": "table-tennis",
+      "predictions": [
+        { "id": "h-tt-01", "sport": "table-tennis", "fixture": { "id": "htt0", "tournament": "ITTF World Tour", "round": "SF", "player1Name": "Ma Long", "player2Name": "Fan Zhendong", "scheduledAt": "2025-06-04T10:00:00Z" }, "market": "match_winner", "prediction": "Ma Long to Win", "confidence": 80, "tier": "high", "reasoning": "H2H edge.", "generatedAt": "2025-06-04T06:00:00Z", "result": "correct" },
+        { "id": "h-tt-02", "sport": "table-tennis", "fixture": { "id": "htt0", "tournament": "ITTF World Tour", "round": "SF", "player1Name": "Ma Long", "player2Name": "Fan Zhendong", "scheduledAt": "2025-06-04T10:00:00Z" }, "market": "total_games", "prediction": "Over 4.5 Sets", "confidence": 91, "tier": "elite", "reasoning": "Classic long rivalry.", "generatedAt": "2025-06-04T06:00:00Z", "result": "correct" }
+      ],
+      "stats": { "total": 2, "correct": 2, "incorrect": 0, "pending": 0, "accuracy": 100 }
+    },
+    {
+      "date": "2025-06-03",
+      "sport": "tennis",
+      "predictions": [
+        { "id": "h-t-05", "sport": "tennis", "fixture": { "id": "h2", "tournament": "ATP Rome", "round": "SF", "player1Name": "Sinner", "player2Name": "Zverev", "scheduledAt": "2025-06-03T14:00:00Z" }, "market": "match_winner", "prediction": "Sinner to Win", "confidence": 85, "tier": "high", "reasoning": "Clay Elo dominance.", "generatedAt": "2025-06-03T06:00:00Z", "result": "correct" },
+        { "id": "h-t-06", "sport": "tennis", "fixture": { "id": "h2", "tournament": "ATP Rome", "round": "SF", "player1Name": "Sinner", "player2Name": "Zverev", "scheduledAt": "2025-06-03T14:00:00Z" }, "market": "total_games", "prediction": "Over 20.5", "confidence": 78, "tier": "medium", "reasoning": "Both players strong.", "generatedAt": "2025-06-03T06:00:00Z", "result": "correct" },
+        { "id": "h-t-07", "sport": "tennis", "fixture": { "id": "h3", "tournament": "WTA Stuttgart", "round": "F", "player1Name": "Badosa", "player2Name": "Krejcikova", "scheduledAt": "2025-06-03T16:00:00Z" }, "market": "match_winner", "prediction": "Badosa to Win", "confidence": 73, "tier": "medium", "reasoning": "Grass Elo + form.", "generatedAt": "2025-06-03T06:00:00Z", "result": "incorrect" }
+      ],
+      "stats": { "total": 3, "correct": 2, "incorrect": 1, "pending": 0, "accuracy": 67 }
+    }
+  ],
+  "overall": { "total": 9, "correct": 7, "incorrect": 2, "accuracy": 78 }
+}
